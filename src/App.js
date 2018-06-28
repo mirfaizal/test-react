@@ -34,9 +34,7 @@ class Stars extends React.Component {
     render(){
         return(
             <div className="col-5">
-                 <i className="fa fa-star fa-spinner">no star</i>
-                 <i className="fa fa-star fa-spinner">no star</i>
-                 <i className="fa fa-star fa-spinner">no star</i>
+                 <i className="fa fa-star "></i>
             </div>
         );
     }
@@ -55,7 +53,9 @@ class Button extends React.Component {
 class Answer extends React.Component {
     render(){
         return(
-            <div className="col-5"><font-awesome-icon icon="spinner" rotation="90" /></div>
+            <div className="col-5">
+                <i className="fa-address-card" >Address</i>
+            </div>
         );
     }
 }

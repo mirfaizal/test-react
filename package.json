@@ -3,19 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.8",
-    "@fortawesome/fontawesome-free-brands": "^5.0.13",
-    "@fortawesome/fontawesome-free-regular": "^5.0.13",
-    "@fortawesome/fontawesome-free-solid": "^5.0.13",
-    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
-    "@fortawesome/react-fontawesome": "0.0.20",
-    "@fortawesome/vue-fontawesome": "0.0.23",
+    "font-awesome": "^4.7.0",
     "bootstrap": "^4.1.1",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
     "react-fontawesome": "^1.6.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "superagent": "^3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
